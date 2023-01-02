@@ -5,7 +5,7 @@ class Calc
 {
 	//int num1=1;
 	//int num2=3;
-	int result;
+	int result=5;
 	int perform(int num1,int num2)
 	{
 		return result=num1+num2;
