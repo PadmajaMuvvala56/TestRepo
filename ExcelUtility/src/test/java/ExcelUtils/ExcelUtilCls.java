@@ -16,8 +16,7 @@ public class ExcelUtilCls {
 	}
 
 	public void getCellData(int rowNum, int colNum) 
-	{
-		
+	{	
 		DataFormatter formatter = new DataFormatter();
 		Object value = 	formatter.formatCellValue(sheet.getRow(rowNum).getCell(colNum));
 		System.out.println(value);
@@ -27,8 +26,4 @@ public class ExcelUtilCls {
 		int rowCount = sheet.getPhysicalNumberOfRows();
 		System.out.println("Rows count:" + rowCount);
 	}
-
-
-
-
 }
